@@ -1,0 +1,25 @@
+ui_addGame_text_component <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Пользовательский интерфейс добавления игры в БЗ.]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[UI component for adding game.]
+	(*
+	<- lang_en;;
+	*);;
+
+ui_addGame_answer_button <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Добавить]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[Add]
+	(*
+	<- lang_en;;
+	*);;
+
+

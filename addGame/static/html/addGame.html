@@ -1,0 +1,73 @@
+<div class="addGame jumbotron">
+    <p class="lead" id="text-addGame-component"></p>
+    <form class="form-inline">
+        <div class="form-group mb-2">
+            <label for="id" id="_id">Идентификатор</label><br>
+            <input id="id" type="text" class="form-control-plaintext"><br>
+            <label for="runame" id="_runame">Название на русском</label><br>
+            <input id="runame" type="text" class="form-control-plaintext"><br>
+	    <label for="enname" id="_enname">Название на английском</label><br>
+            <input id="enname" type="text" class="form-control-plaintext"><br>
+        </div>
+
+	<div class="form-group mb-2">
+            <label for="developer" id="_developer">Разработчик</label><br>
+            <input id="developer" type="text" class="form-control-plaintext"><br>
+	    <label for="publisher" id="_publisher">Издатель</label><br>
+            <input id="publisher" type="text" class="form-control-plaintext"><br>
+	    <label for="dateOfPublisher" id="_dateOfPublisher">Дата издания</label><br>
+            <input id="dateOfPublisher" type="text" class="form-control-plaintext"><br>
+	    <label for="gameEngine" id="_gameEngine">Игровой движок</label><br>
+            <input id="gameEngine" type="text" class="form-control-plaintext"><br>
+        </div>
+
+	<div class="form-group mb-2">
+ 	   <p><strong>Жанр</strong></p>
+	    <select id="genreSelect" size="1">
+	    <option selected value="concept_shooter">Шутер</option>
+	    <option value="concept_strategy">Стратегия</option>
+	    <option value="concept_racing">Гонки</option>
+	    <option value="concept_puzzle">Головоломка</option>
+	   </select>
+ 	   <p><strong>Вид камеры</strong></p>
+	    <select id="gameCameraSelect" >
+	    <option selected value="concept_first_person_view">от первого</option>
+	    <option value="concept_third_person_view">от третьего</option>
+	    <option value="concept_three_dimensional_top_view">трехмерный вид сверху</option>
+	   </select>
+	</div>
+
+
+
+	<div class="form-group mb-2">
+ 	   <p><strong>Платформа</strong></p>
+	    <select id="platformsSelect[]" multiple="multiple" size="7">
+	    <option selected value="concept_windows">Windows</option>
+	    <option value="concept_playstation_3">Playstation 3</option>
+	    <option value="concept_playstation_4">Playstation 4</option>
+	    <option value="concept_playstation_5">Playstation 5</option>
+	    <option value="concept_xbox_one">Xbox One</option>
+       	    <option value="concept_xbox_360">Xbox 360</option>
+	    <option value="concept_xbox_x">Xbox X</option>
+	   </select>
+	</div>
+
+	<div class="form-group mb-2">
+ 	   <p><strong>Режим игры</strong></p>
+	    <select id="gameModeSelect[]" multiple="multiple" size="3">
+	    <option selected value="concept_multiplayer_game">Многопользовательская игра</option>
+	    <option value="concept_singleplayer_game">Однопользовательская игра</option>
+	    <option value="cooperative_game_mode">Кооперативная игра</option>
+	   </select>
+	</div>
+
+
+
+
+        <button type="submit" class="btn btn-primary mb-2" id="answer-addGame-button"></button>
+
+    </form>
+    <p id="info"></p>
+</div>
+
+
